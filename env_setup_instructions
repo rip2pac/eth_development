@@ -1,0 +1,20 @@
+Install blockchain simulator:
+
+npm install ethereumjs-testrpc web3@0.20.1
+
+Install Solidity compiler:
+
+npm install solc
+
+Node setup:
+
+node
+> Web3 = require('web3')
+> web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+
+Compile Solidity:
+
+node
+> code = fs.readFileSync('Voting.sol').toString()
+> solc = require('solc')
+> compiledCode = solc.compile(code)
