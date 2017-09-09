@@ -7,7 +7,7 @@ Installing virtual blockchain environment:
 
 Modelling a full working blockchain envrionment is inefficient and unecessary. 
 Setting up an in-memory virtual blockchain envrionment is more appropriate for testing eth applications.
-Install virtual blockchain <b>testrpc<b>
+Install virtual blockchain <b>testrpc</b>
 
 npm install ethereumjs-testrpc web3@0.20.1
 
