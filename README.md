@@ -5,7 +5,7 @@ Developing on ethereum using Solidity and Node.js
 
 ### Installing virtual blockchain environment:
 
-Modelling a full working blockchain envrionment is inefficient and unecessary. 
+Modelling a full working blockchain envrionment is inefficient and unnecessary. 
 Setting up an in-memory virtual blockchain envrionment is more appropriate for testing eth applications.
 Install a virtual blockchain called <b>testrpc</b>:
 
